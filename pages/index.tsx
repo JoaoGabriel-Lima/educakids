@@ -318,15 +318,15 @@ const Home: NextPage = () => {
                       Margarida, Teresina/PI
                     </h3>
                     <p className="text-center text-[#472192] mt-3 px-5">
-                      "Não poderia estar mais satisfeito com a minha recente
-                      aquisição da apostila da Universo Kids. O material é
-                      simplesmente excepcional, com uma variedade incrível de
+                      &quot;Não poderia estar mais satisfeito com a minha
+                      recente aquisição da apostila da Universo Kids. O material
+                      é simplesmente excepcional, com uma variedade incrível de
                       atividades que com certeza vão ajudar no aprendizado dos
                       meus filhos. Parabenizo a equipe da Universo Kids pelo seu
                       trabalho dedicado em fornecer produtos de alta qualidade
                       para a educação das crianças. Se você está em busca de uma
                       solução completa e eficiente para ensinar seus filhos de
-                      forma lúdica."
+                      forma lúdica.&quot;
                     </p>
                   </div>
                 </SplideSlide>
@@ -337,14 +337,14 @@ const Home: NextPage = () => {
                       Prof. Tamires Rio do Sul, SC
                     </h3>
                     <p className="text-center text-[#472192] mt-3 px-5">
-                      ”Adquirir a Apostila foi a melhor escolha que fiz para
-                      compartilhar momentos divertidos e educativos com meus
-                      filhos. Fiquei impressionado com a qualidade das
+                      &quot;Adquirir a Apostila foi a melhor escolha que fiz
+                      para compartilhar momentos divertidos e educativos com
+                      meus filhos. Fiquei impressionado com a qualidade das
                       atividades e posso afirmar que atendeu todas as minhas
                       expectativas. Com certeza, é um investimento que vale
                       muito a pena para quem busca uma forma eficiente e lúdica
                       de ensinar. Já recomendei para outras famílias e
-                      continuarei indicando essa excelente opção."
+                      continuarei indicando essa excelente opção.&quot;
                     </p>
                   </div>
                 </SplideSlide>
@@ -356,12 +356,12 @@ const Home: NextPage = () => {
                       Flávia, Salvador/BA
                     </h3>
                     <p className="text-center text-[#472192] mt-3 px-5">
-                      "Comprei a Apostila ABC para meu filho e não poderia estar
-                      mais feliz com a qualidade do material. O preço é
+                      &quot;Comprei a Apostila ABC para meu filho e não poderia
+                      estar mais feliz com a qualidade do material. O preço é
                       acessível e justo, e o mais importante: meu filho se
                       divertiu enquanto aprendia. As atividades são tão
                       envolventes que já as utilizamos diversas vezes sem perder
-                      o interesse."
+                      o interesse.&quot;
                     </p>
                   </div>
                 </SplideSlide>
