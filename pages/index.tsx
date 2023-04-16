@@ -5,6 +5,7 @@ import SectionComponent from "../components/sectionComponent";
 import { HomeCointainer } from "../styles/components/home";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -54,9 +55,12 @@ const Home: NextPage = () => {
             <span className=" text-7xl font-bold drop-shadow-lg">R$ 5,89</span>
             <span className="self-end"> ou 27,00 a vista</span>
           </div>
-          <button className="mt-10 rounded-full text-[#472192] bg-[#FFC700] px-7 py-4 text-4xl font-bold">
-            EU QUERO
-          </button>
+          <Link
+            href={"https://pay.kiwify.com.br/QZaFymQ"}
+            className="mt-10 rounded-full  bg-[#FFC700] px-7 py-4  "
+          >
+            <span className="font-bold text-[#472192] text-3xl">EU QUERO</span>
+          </Link>
           <img
             alt="garantia1"
             src="/garantia1.png"
@@ -297,20 +301,23 @@ const Home: NextPage = () => {
                   😍 7 dias de garantia
                 </p>
               </div>
-              <button className="mt-10 rounded-full  bg-[#FFC700] px-16 mb-5 py-4 ">
-                <span className="text-[#472192] text-xl font-bold">
+              <Link
+                href={"https://pay.kiwify.com.br/QZaFymQ"}
+                className="mt-10 rounded-full  bg-[#FFC700] px-16 mb-5 py-4 "
+              >
+                <span className="text-[#472192] text-xl font-bold text-center flex justify-center">
                   RECEBER MEU <br /> DESCONTO
                 </span>
-              </button>
+              </Link>
             </section>
           </div>
           <footer className="flex flex-col items-center gap-y-2 mt-10">
-            <p>Educa Kids</p>
-            <p>
+            <p className="text-center">Educa Kids</p>
+            <p className="text-center">
               Copyright © {new Date().getFullYear()}. Todos os direitos
               reservados.
             </p>
-            <p className="underline">
+            <p className="underline text-center">
               Políticas de Privacidade | Termos de Uso
             </p>
           </footer>
